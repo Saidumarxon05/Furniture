@@ -15,12 +15,14 @@ body {
     align-items: center;
     padding: 22px 0px 22px 0px; 
     background-color: #D3CBC5;
+
 }
 
 .header .left--side {
    display: flex;
    justify-content: space-around;
    column-gap: 5px;
+   
    
 }
 
