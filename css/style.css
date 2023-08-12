@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px 0px 22px 0px; 
+    background-color: #D3CBC5;
+}
+
+.header .left--side {
+   display: flex;
+   justify-content: space-around;
+   column-gap: 5px;
+   
+}
+
+.middle--side {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 45px;
+}
+
+
+
+.middle--side .list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 45px
+
+}
+
+.header .right--side {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 25px; 
+}
+
+.header .left--side p {
+    color: #555;
+    padding-top: 10px;
+}
+
+.header .middle--side ul {
+    color:#1B1A1A;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.main {
+    background-image:url(/image/mockup-white-wall-loft-style-house-with-sofa-accessories-room-3d-rendering\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto; 
+} 
+
+.main .title .text {
+color: #2C314B;
+margin-bottom: 20px;
+
+}
+
+.main h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height:15px ;
+    margin-bottom: 25px;
+    padding-bottom: 15px
+}
+
+.main .title .price {
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 25px;
+    
+}
+
+.main .title span {
+    font-weight: 200;
+    font-size: 17px;
+    color:#716f6e;
+    padding-left: 10px;
+}
+
+.main .title button {
+    padding: 10px 20px 10px 20px;
+    background-color:#1C1B1B;
+    color: white;
+    border: none;
+}
+
+.main  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 900px 100px 0px;
+}
+
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;    
+}
+
+.wrapper .arrows {
+    height: 100vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.box {  
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background-color: #E5E6E6;
+}
+
+.box {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background-color: #E5E6E6; 
+}
+
+.box {
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background-color: #E5E6E6;
+    padding: 50px;
+}
+
+
+.box p {
+ border: 1px solid black; 
+ width: 120px;
+ padding: 7px 7px;
+}
+
+.desk--lamp {
+    left: 1px;
+}
+
+.box img {
+    position: absolute;
+    top: 200px;
+}
+
+.new_arrivals  .card {
+    background-color: #F7F7F7;
+}
+
+.box p {
+    margin-top: 20px;
+}
+
+
+.pteam {
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
